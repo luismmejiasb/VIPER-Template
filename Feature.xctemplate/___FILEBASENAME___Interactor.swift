@@ -7,6 +7,7 @@
 
 class ___VARIABLE_featureName___Interactor: ___VARIABLE_featureName___InteractorProtocol {
 	var repository: ___VARIABLE_featureName___RepositoryProtocol?
+    weak var delegate: ___VARIABLE_featureName___InteractorDelegate?
 
     // MARK: - Inits
     init(repository: ___VARIABLE_featureName___RepositoryProtocol?) {

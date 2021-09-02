@@ -18,3 +18,6 @@ class ___VARIABLE_featureName___Presenter: ___VARIABLE_featureName___PresenterPr
         self.router = router
     }
 }
+
+extension ___VARIABLE_featureName___Presenter: ___VARIABLE_featureName___InteractorDelegate {
+}

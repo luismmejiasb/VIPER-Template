@@ -13,6 +13,7 @@ protocol ___VARIABLE_featureName___FactoryProtocol: class {
 
 protocol ___VARIABLE_featureName___InteractorProtocol: class {
     var repository: ___VARIABLE_featureName___RepositoryProtocol? { get set }
+    var delegate: ___VARIABLE_featureName___InteractorDelegate? { get set }
 }
 
 protocol ___VARIABLE_featureName___ViewProtocol: class {
@@ -23,11 +24,13 @@ protocol ___VARIABLE_featureName___RouterProtocol: class {
     var view: ___VARIABLE_featureName___VCProtocol? { get set }
 }
 
-
 protocol ___VARIABLE_featureName___PresenterProtocol: class {
     var interactor: ___VARIABLE_featureName___InteractorProtocol? { get set }
     var router: ___VARIABLE_featureName___RouterProtocol? { get set }
     var view: ___VARIABLE_featureName___VCProtocol? { get set }
+}
+
+protocol ___VARIABLE_featureName___InteractorDelegate: class {
 }
 
 typealias ___VARIABLE_featureName___VCProtocol = (___VARIABLE_featureName___ViewProtocol & UIViewController)

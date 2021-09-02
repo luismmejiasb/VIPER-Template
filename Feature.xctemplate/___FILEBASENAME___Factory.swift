@@ -21,6 +21,7 @@ public class ___VARIABLE_featureName___Factory: ___VARIABLE_featureName___Factor
         presenter.view = viewController
         viewController.presenter = presenter
         router.view = viewController
+        interactor.delegate = presenter as ___VARIABLE_featureName___InteractorDelegate
 
         return viewController
     }

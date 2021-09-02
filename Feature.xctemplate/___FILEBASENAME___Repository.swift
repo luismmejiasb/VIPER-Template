@@ -10,7 +10,7 @@ class ___VARIABLE_featureName___Repository: ___VARIABLE_featureName___Repository
     var cloudDataSource: ___VARIABLE_featureName___CloudDataSourceProtocol?
 
     // MARK: - Inits
-    init(localDataSource: ___VARIABLE_featureName___LocalDataSource?, cloudDataSource: ___VARIABLE_featureName___CloudDataSource?) {
+    init(localDataSource: ___VARIABLE_featureName___LocalDataSourceProtocol?, cloudDataSource: ___VARIABLE_featureName___CloudDataSourceProtocol?) {
         self.localDataSource = localDataSource
         self.cloudDataSource = cloudDataSource
     }
