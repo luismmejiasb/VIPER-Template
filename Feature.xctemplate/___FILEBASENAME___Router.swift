@@ -7,6 +7,6 @@
 
 import UIKit
 
-class ___VARIABLE_featureName___Router: ___VARIABLE_featureName___RouterProtocol {
+final class ___VARIABLE_featureName___Router: ___VARIABLE_featureName___RouterProtocol {
     weak var view: (___VARIABLE_featureName___ViewProtocol & UIViewController)?
 }

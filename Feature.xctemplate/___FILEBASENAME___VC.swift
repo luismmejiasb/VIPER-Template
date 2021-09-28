@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class ___VARIABLE_featureName___VC: UIViewController {
+final class ___VARIABLE_featureName___VC: UIViewController {
 	var presenter: ___VARIABLE_featureName___PresenterProtocol?
 
     // MARK: Object lifecycle
@@ -28,12 +28,12 @@ public class ___VARIABLE_featureName___VC: UIViewController {
 	}
 }
 
-// MARK: View Protocol
-
-extension ___VARIABLE_featureName___VC: ___VARIABLE_featureName___ViewProtocol {
-}
-
 // MARK: Private Functions and IBActions
 
 private extension ___VARIABLE_featureName___VC {
+}
+
+// MARK: View Protocol
+
+extension ___VARIABLE_featureName___VC: ___VARIABLE_featureName___ViewProtocol {
 }

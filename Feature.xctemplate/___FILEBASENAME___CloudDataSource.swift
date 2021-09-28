@@ -6,5 +6,5 @@
 //  Copyright (c) ___YEAR___ Falabella FIF. All rights reserved.
 //
 
-class ___VARIABLE_featureName___CloudDataSource: ___VARIABLE_featureName___CloudDataSourceProtocol {
+final class ___VARIABLE_featureName___CloudDataSource: ___VARIABLE_featureName___CloudDataSourceProtocol {
 }

@@ -5,8 +5,8 @@
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright (c) ___YEAR___ Falabella FIF. All rights reserved.
 
-public class ___VARIABLE_featureName___Factory: ___VARIABLE_featureName___FactoryProtocol {
-    public static func initialize() -> ___VARIABLE_featureName___VC {
+final class ___VARIABLE_featureName___Factory: ___VARIABLE_featureName___FactoryProtocol {
+    static func initialize() -> ___VARIABLE_featureName___VC {
         let localDataSource = ___VARIABLE_featureName___LocalDataSource()
         let cloudDataSource = ___VARIABLE_featureName___CloudDataSource()
         let repository = ___VARIABLE_featureName___Repository(localDataSource: localDataSource, cloudDataSource: cloudDataSource)

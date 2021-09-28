@@ -5,7 +5,7 @@
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright (c) ___YEAR___ Falabella FIF. All rights reserved.
 
-class ___VARIABLE_featureName___Repository: ___VARIABLE_featureName___RepositoryProtocol {
+final class ___VARIABLE_featureName___Repository: ___VARIABLE_featureName___RepositoryProtocol {
 	var localDataSource: ___VARIABLE_featureName___LocalDataSourceProtocol?
     var cloudDataSource: ___VARIABLE_featureName___CloudDataSourceProtocol?
 

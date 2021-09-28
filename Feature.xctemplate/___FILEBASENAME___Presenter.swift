@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ___VARIABLE_featureName___Presenter: ___VARIABLE_featureName___PresenterProtocol {
+final class ___VARIABLE_featureName___Presenter: ___VARIABLE_featureName___PresenterProtocol {
     internal var interactor: ___VARIABLE_featureName___InteractorProtocol?
     internal var router: ___VARIABLE_featureName___RouterProtocol?
     internal weak var view: (___VARIABLE_featureName___ViewProtocol & UIViewController)?
